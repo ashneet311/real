@@ -42,16 +42,15 @@ const Properties = () => {
         <p className="text-blue-400 uppercase text-sm font-semibold">
           Browse popular properties
         </p>
-        <h1 className="text-3xl font-bold xsm:text-base">Find Properties in Your City</h1>
+        <h1 className="text-3xl font-bold xsm:text-base">
+          Find Properties in Your City
+        </h1>
       </div>
 
       {/* Cards Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {cards.map((item, index) => (
-          <div
-            key={index}
-            className="relative group overflow-hidden shadow-lg"
-          >
+          <div key={index} className="relative group overflow-hidden shadow-lg">
             {/* Background Image */}
             <div
               className="h-56 bg-cover bg-center"
